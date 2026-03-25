@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03E7B16599101F51F90BC81D /* SecurityCheckerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66578A83BCC7D308447093 /* SecurityCheckerService.swift */; };
 		0DDA55797460CE7DEAE8BAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A322925F3DA822133BF37A7 /* AppDelegate.swift */; };
+		1092CC65B3F60CF726ACDD46 /* ReportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A2A6EF7FDC3CE4CC618B9 /* ReportModels.swift */; };
 		14E55A9C8330371D18947418 /* AuditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B014E55CE5A51E260DEC0CB /* AuditViewModel.swift */; };
 		17FDE426F5A364A5D53F596D /* SecurityCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3351237BA65ED84BE316D99 /* SecurityCheck.swift */; };
 		346BA1D951201C29ADB3298B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C457EACDEFA50662CC3BA0 /* Theme.swift */; };
@@ -26,6 +27,7 @@
 		3212BAF5CA1878325357EFBA /* Coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C457EACDEFA50662CC3BA0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		585390172B4D81A96D252769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		648A2A6EF7FDC3CE4CC618B9 /* ReportModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModels.swift; sourceTree = "<group>"; };
 		8B014E55CE5A51E260DEC0CB /* AuditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditViewModel.swift; sourceTree = "<group>"; };
 		8F430BBF92B8F98EA146567D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		923E762772AC8E80DB4DB1F3 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		98F64F4A6BDBD5563E8B2AC4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				648A2A6EF7FDC3CE4CC618B9 /* ReportModels.swift */,
 				C3351237BA65ED84BE316D99 /* SecurityCheck.swift */,
 			);
 			path = Models;
@@ -173,6 +176,7 @@
 				14E55A9C8330371D18947418 /* AuditViewModel.swift in Sources */,
 				EF5E995BA96C0804208491FA /* ContentView.swift in Sources */,
 				CF46C57587AB3A64D362BCE2 /* PopoverView.swift in Sources */,
+				1092CC65B3F60CF726ACDD46 /* ReportModels.swift in Sources */,
 				ABB55D61B6B7C972F05E8F19 /* ScoreView.swift in Sources */,
 				17FDE426F5A364A5D53F596D /* SecurityCheck.swift in Sources */,
 				03E7B16599101F51F90BC81D /* SecurityCheckerService.swift in Sources */,
