@@ -12,6 +12,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         setupPopover()
         setupMainWindow()
         monitorEvents()
+
+        // Initialize CoinState for shortcuts
+        CoinState.shared.configure()
+
+        // Start scheduled scans
+        ScheduledScanService.shared.requestNotificationPermission()
+        ScheduledScanService.shared.startScheduled()
     }
 
     private func setupStatusItem() {
@@ -77,3 +84,36 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return false
     }
 }
+
+// MARK: - CoinState
+
+@MainActor
+final class CoinState {
+    static let shared = CoinState()
+
+    var lastAuditDate: Date?
+    var lastScore: Double = 0
+    var failedCheckCount: Int = 0
+
+    private var securityChecker: SecurityCheckerService?
+
+    private init() {}
+
+    func configure() {
+        // Use SecurityCheckerService.shared
+    }
+
+    func runAudit() -> Double {
+        // Run the security audit
+        // For now, return a placeholder score
+        lastAuditDate = Date()
+        lastScore = 75.0  // Would be calculated from actual checks
+        failedCheckCount = 3  // Would be calculated from actual checks
+        return lastScore
+    }
+
+    func getLastScore() -> Double {
+        return lastScore
+    }
+}
+
