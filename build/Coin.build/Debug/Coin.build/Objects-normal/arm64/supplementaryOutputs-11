@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/coin-macos/Sources/PortfolioExport.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioExport.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioExport.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioExport.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioExport.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioExport.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/PortfolioHistory.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioHistory.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioHistory.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioHistory.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioHistory.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PortfolioHistory.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/PopoverView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PopoverView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PopoverView.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PopoverView.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PopoverView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/PopoverView.swiftdeps"
+  }
+}

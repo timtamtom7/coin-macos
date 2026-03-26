@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/coin-macos/Sources/Models/SecurityCheck.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/SecurityCheck.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/SecurityCheck.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/SecurityCheck.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/SecurityCheck.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/SecurityCheck.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/ScheduledScanService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScheduledScanService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScheduledScanService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScheduledScanService.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScheduledScanService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScheduledScanService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/ScoreView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScoreView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScoreView.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScoreView.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScoreView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ScoreView.swiftdeps"
+  }
+}

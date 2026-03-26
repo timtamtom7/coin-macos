@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/coin-macos/Sources/Models/ReportModels.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/PriceAlert.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/PrivacyService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.swiftdeps"
+  }
+}

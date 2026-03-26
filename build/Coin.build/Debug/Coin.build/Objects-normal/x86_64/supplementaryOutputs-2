@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/coin-macos/Sources/CoinWatchlist.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Models/Coin.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/AuditViewModel.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.swiftdeps"
+  }
+}

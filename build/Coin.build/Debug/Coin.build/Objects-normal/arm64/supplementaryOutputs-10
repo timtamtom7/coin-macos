@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/CollaborationService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/CollaborationService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/CollaborationService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/CollaborationService.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/CollaborationService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/CollaborationService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/EnterpriseService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/EnterpriseService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/EnterpriseService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/EnterpriseService.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/EnterpriseService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/EnterpriseService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/ContentView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ContentView.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/arm64/ContentView.swiftdeps"
+  }
+}

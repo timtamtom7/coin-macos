@@ -1,0 +1,279 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin-primary.dia",
+    "emit-module-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin-primary-emit-module.dia",
+    "pch" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin-primary.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/AccessibilityExtensions.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AccessibilityExtensions.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AccessibilityExtensions.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AccessibilityExtensions.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AccessibilityExtensions.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AccessibilityExtensions.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AccessibilityExtensions.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AccessibilityExtensions.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AccessibilityExtensions~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/App/AppDelegate.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AppDelegate.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AppDelegate.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AppDelegate.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/App/main.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/main.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/main.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/main.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/main.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/main.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/main.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/main.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/main~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/CoinWatchlist.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CoinWatchlist~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Models/Coin.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Coin~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Models/ReportModels.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ReportModels~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Models/SecurityCheck.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheck.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheck.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheck.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheck.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheck.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheck.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheck.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheck~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Models/SubscriptionTier.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionTier.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionTier.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionTier.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionTier.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionTier.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionTier.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionTier.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionTier~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/PortfolioExport.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioExport.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioExport.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioExport.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioExport.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioExport.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioExport.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioExport.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioExport~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/PortfolioHistory.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioHistory.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioHistory.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioHistory.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioHistory.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioHistory.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioHistory.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioHistory.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PortfolioHistory~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/PriceAlert.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PriceAlert~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/APIService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/APIService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/APIService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/APIService.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/APIService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/APIService.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/APIService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/APIService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/APIService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/CollaborationService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CollaborationService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CollaborationService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CollaborationService.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CollaborationService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CollaborationService.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CollaborationService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CollaborationService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/CollaborationService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/EnterpriseService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/EnterpriseService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/EnterpriseService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/EnterpriseService.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/EnterpriseService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/EnterpriseService.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/EnterpriseService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/EnterpriseService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/EnterpriseService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/PrivacyService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PrivacyService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/ScheduledScanService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScheduledScanService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScheduledScanService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScheduledScanService.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScheduledScanService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScheduledScanService.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScheduledScanService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScheduledScanService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScheduledScanService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/SecurityCheckerService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheckerService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheckerService.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheckerService.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheckerService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheckerService.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheckerService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheckerService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SecurityCheckerService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/SettingsStore.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SettingsStore.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SettingsStore.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SettingsStore.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SettingsStore.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SettingsStore.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SettingsStore.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SettingsStore.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SettingsStore~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/ShortcutsManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ShortcutsManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ShortcutsManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ShortcutsManager.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ShortcutsManager.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ShortcutsManager.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ShortcutsManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ShortcutsManager.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ShortcutsManager~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/SubscriptionManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionManager.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionManager.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionManager.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionManager.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/SubscriptionManager~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/ThreatIntelligenceEngine.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ThreatIntelligenceEngine.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ThreatIntelligenceEngine.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ThreatIntelligenceEngine.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ThreatIntelligenceEngine.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ThreatIntelligenceEngine.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ThreatIntelligenceEngine.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ThreatIntelligenceEngine.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ThreatIntelligenceEngine~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Services/iCloudSyncManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/iCloudSyncManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/iCloudSyncManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/iCloudSyncManager.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/iCloudSyncManager.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/iCloudSyncManager.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/iCloudSyncManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/iCloudSyncManager.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/iCloudSyncManager~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/AuditViewModel.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/AuditViewModel~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/ContentView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/PopoverView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PopoverView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PopoverView.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PopoverView.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PopoverView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PopoverView.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PopoverView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PopoverView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/PopoverView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/ScoreView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScoreView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScoreView.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScoreView.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScoreView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScoreView.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScoreView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScoreView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/ScoreView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/Theme.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Theme.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Theme.dia",
+    "index-unit-output-path" : "/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Theme.o",
+    "llvm-bc" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Theme.bc",
+    "object" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Theme.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Theme.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/coin-macos/build/Coin.build/Debug/Coin.build/Objects-normal/x86_64/Theme~partial.swiftmodule"
+  }
+}

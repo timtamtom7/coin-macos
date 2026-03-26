@@ -10,7 +10,9 @@ class SettingsStore {
     }
 
     private var fileURL: URL {
-        let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+        guard let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first else {
+            return FileManager.default.temporaryDirectory.appendingPathComponent("Coin/scan-history.json")
+        }
         let dbDir = appSupport.appendingPathComponent("Coin", isDirectory: true)
         try? FileManager.default.createDirectory(at: dbDir, withIntermediateDirectories: true)
         return dbDir.appendingPathComponent("scan-history.json")
