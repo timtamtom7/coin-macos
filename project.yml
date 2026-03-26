@@ -6,11 +6,6 @@ options:
   xcodeVersion: "15.0"
   generateEmptyDirectories: true
 
-packages:
-  SQLite:
-    url: https://github.com/stephencelis/SQLite.swift
-    from: "0.15.0"
-
 targets:
   Coin:
     type: application
@@ -30,7 +25,6 @@ targets:
         ENABLE_HARDENED_RUNTIME: YES
         CODE_SIGN_IDENTITY: "-"
         COMBINE_HIDPI_IMAGES: YES
-    dependencies:
-      - package: SQLite
+    dependencies: []
     entitlements:
       path: Resources/Coin.entitlements

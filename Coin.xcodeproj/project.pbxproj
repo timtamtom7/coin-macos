@@ -21,7 +21,6 @@
 		5573B59609C5AD65C461781D /* ScheduledScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BEEC802D20B0E7128FA8EB /* ScheduledScanService.swift */; };
 		89814AAB86715D3E4033D31E /* SubscriptionTier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DE9C0708F3147479EF1107 /* SubscriptionTier.swift */; };
 		92CE2E390CF9D68A99626678 /* iCloudSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7877AE77BC702133AC511B4 /* iCloudSyncManager.swift */; };
-		93C81638674337EE7D65614B /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 71EB4EE8909EB2C58785F324 /* SQLite */; };
 		9615F98D38FC60EAD27D85AE /* ThreatIntelligenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5134F4816A141CAB8EB71106 /* ThreatIntelligenceEngine.swift */; };
 		9C38F55B2B0FF655BE37DAF1 /* PriceAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1E7222EB39A7739CCEBCB /* PriceAlert.swift */; };
 		A04AD5B93AE500FC3A39C9A8 /* AccessibilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A447B5FBD4EBF8541881D /* AccessibilityExtensions.swift */; };
@@ -67,17 +66,6 @@
 		F94D62CE86119DBC94362BB4 /* PrivacyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyService.swift; sourceTree = "<group>"; };
 		FA81CE557D974C76955F41E1 /* CoinWatchlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinWatchlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		7138920E586270F2A054CF46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93C81638674337EE7D65614B /* SQLite in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		01385E1403A438AA7D4A803C = {
@@ -170,16 +158,12 @@
 			buildConfigurationList = FB651B2EC57D7A5F256B72E1 /* Build configuration list for PBXNativeTarget "Coin" */;
 			buildPhases = (
 				F786D31A65984F7637FC4EA7 /* Sources */,
-				7138920E586270F2A054CF46 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Coin;
-			packageProductDependencies = (
-				71EB4EE8909EB2C58785F324 /* SQLite */,
-			);
 			productName = Coin;
 			productReference = 3212BAF5CA1878325357EFBA /* Coin.app */;
 			productType = "com.apple.product-type.application";
@@ -204,9 +188,6 @@
 				en,
 			);
 			mainGroup = 01385E1403A438AA7D4A803C;
-			packageReferences = (
-				3E39D255FADA4367184267E9 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
-			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -436,25 +417,6 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3E39D255FADA4367184267E9 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.15.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		71EB4EE8909EB2C58785F324 /* SQLite */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3E39D255FADA4367184267E9 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
-			productName = SQLite;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 355F6ABBBC8BC390763B5B07 /* Project object */;
 }

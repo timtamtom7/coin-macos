@@ -8,6 +8,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private var eventMonitor: Any?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
+        _ = CoinCollaborationService.shared
+        _ = CoinEnterpriseService.shared
+        _ = CoiniOSService.shared
+        CoinAPIService.shared.start()
+
         setupStatusItem()
         setupPopover()
         setupMainWindow()
@@ -83,6 +88,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
         return false
     }
+
+    func applicationWillTerminate(_ notification: Notification) {
+        CoinAPIService.shared.stop()
+        if let monitor = eventMonitor {
+            NSEvent.removeMonitor(monitor)
+        }
+    }
 }
 
 // MARK: - CoinState
@@ -116,4 +128,3 @@ final class CoinState {
         return lastScore
     }
 }
-

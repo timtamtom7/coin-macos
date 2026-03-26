@@ -1,98 +1,51 @@
 import Foundation
-import SQLite
 
 class SettingsStore {
     static let shared = SettingsStore()
 
-    private var db: Connection?
-    private let historyTable = Table("scan_history")
-    private let idCol = SQLite.Expression<String>("id")
-    private let timestampCol = SQLite.Expression<Date>("timestamp")
-    private let overallScoreCol = SQLite.Expression<Int>("overall_score")
-    private let checksJsonCol = SQLite.Expression<String>("checks_json")
+    private var history: [AuditResult] = []
 
     private init() {
-        setupDatabase()
+        loadPersistedHistory()
     }
 
-    private func setupDatabase() {
-        do {
-            let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-            let dbDir = appSupport.appendingPathComponent("Coin", isDirectory: true)
-            try FileManager.default.createDirectory(at: dbDir, withIntermediateDirectories: true)
-            let dbPath = dbDir.appendingPathComponent("coin.sqlite3").path
-
-            db = try Connection(dbPath)
-            try createTable()
-        } catch {
-            print("Database setup error: \(error)")
-        }
-    }
-
-    private func createTable() throws {
-        try db?.run(historyTable.create(ifNotExists: true) { t in
-            t.column(idCol, primaryKey: true)
-            t.column(timestampCol)
-            t.column(overallScoreCol)
-            t.column(checksJsonCol)
-        })
+    private var fileURL: URL {
+        let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+        let dbDir = appSupport.appendingPathComponent("Coin", isDirectory: true)
+        try? FileManager.default.createDirectory(at: dbDir, withIntermediateDirectories: true)
+        return dbDir.appendingPathComponent("scan-history.json")
     }
 
     func saveResult(_ result: AuditResult) {
-        guard let db = db else { return }
-
-        do {
-            let encoder = JSONEncoder()
-            let checksData = try encoder.encode(result.checks)
-            let checksJson = String(data: checksData, encoding: .utf8) ?? "[]"
-
-            let insert = historyTable.insert(
-                idCol <- result.id.uuidString,
-                timestampCol <- result.timestamp,
-                overallScoreCol <- result.overallScore,
-                checksJsonCol <- checksJson
-            )
-            try db.run(insert)
-        } catch {
-            print("Save error: \(error)")
-        }
+        history.removeAll { $0.id == result.id }
+        history.insert(result, at: 0)
+        persist()
     }
 
     func loadHistory(limit: Int = 30) -> [AuditResult] {
-        guard let db = db else { return [] }
-
-        var results: [AuditResult] = []
-        let decoder = JSONDecoder()
-
-        do {
-            let query = historyTable
-                .order(timestampCol.desc)
-                .limit(limit)
-
-            for row in try db.prepare(query) {
-                let checksData = row[checksJsonCol].data(using: .utf8) ?? Data()
-                let checks = (try? decoder.decode([SecurityCheck].self, from: checksData)) ?? []
-
-                let result = AuditResult(
-                    timestamp: row[timestampCol],
-                    overallScore: row[overallScoreCol],
-                    checks: checks
-                )
-                results.append(result)
-            }
-        } catch {
-            print("Load error: \(error)")
-        }
-
-        return results
+        Array(history.sorted { $0.timestamp > $1.timestamp }.prefix(limit))
     }
 
     func clearHistory() {
-        guard let db = db else { return }
+        history.removeAll()
+        persist()
+    }
+
+    private func loadPersistedHistory() {
+        guard let data = try? Data(contentsOf: fileURL),
+              let decoded = try? JSONDecoder().decode([AuditResult].self, from: data) else {
+            history = []
+            return
+        }
+        history = decoded
+    }
+
+    private func persist() {
         do {
-            try db.run(historyTable.delete())
+            let data = try JSONEncoder().encode(history)
+            try data.write(to: fileURL, options: .atomic)
         } catch {
-            print("Clear error: \(error)")
+            print("Failed to persist scan history: \(error)")
         }
     }
 }

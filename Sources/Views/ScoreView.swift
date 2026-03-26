@@ -42,13 +42,15 @@ struct ScoreView: View {
     }
 }
 
-#Preview {
-    VStack(spacing: 20) {
-        ScoreView(score: 95, size: 120)
-        ScoreView(score: 75, size: 120)
-        ScoreView(score: 55, size: 120)
-        ScoreView(score: 30, size: 120)
+struct ScoreView_Previews: PreviewProvider {
+    static var previews: some View {
+        VStack(spacing: 20) {
+            ScoreView(score: 95, size: 120)
+            ScoreView(score: 75, size: 120)
+            ScoreView(score: 55, size: 120)
+            ScoreView(score: 30, size: 120)
+        }
+        .padding()
+        .background(Theme.background)
     }
-    .padding()
-    .background(Theme.background)
 }
