@@ -22,6 +22,7 @@
 		CF46C57587AB3A64D362BCE2 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E21898CCCC7FC8D02C7D82 /* PopoverView.swift */; };
 		EF5E995BA96C0804208491FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585390172B4D81A96D252769 /* ContentView.swift */; };
 		FBE80D2882EAD5CCDEB1E998 /* ShortcutsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD1986D02F19E0AF79A629A /* ShortcutsManager.swift */; };
+		AABB00112233445566AABBCC /* ThreatIntelligenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00112233445566EEFF00 /* ThreatIntelligenceEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		BFD1986D02F19E0AF79A629A /* ShortcutsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsManager.swift; sourceTree = "<group>"; };
 		C3351237BA65ED84BE316D99 /* SecurityCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCheck.swift; sourceTree = "<group>"; };
 		DB66578A83BCC7D308447093 /* SecurityCheckerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCheckerService.swift; sourceTree = "<group>"; };
+		AABB00112233445566EEFF00 /* ThreatIntelligenceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreatIntelligenceEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				DB66578A83BCC7D308447093 /* SecurityCheckerService.swift */,
 				923E762772AC8E80DB4DB1F3 /* SettingsStore.swift */,
 				BFD1986D02F19E0AF79A629A /* ShortcutsManager.swift */,
+				AABB00112233445566EEFF00 /* ThreatIntelligenceEngine.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				346BA1D951201C29ADB3298B /* Theme.swift in Sources */,
 				92CE2E390CF9D68A99626678 /* iCloudSyncManager.swift in Sources */,
 				433F261411480EEBACECC278 /* main.swift in Sources */,
+				AABB00112233445566AABBCC /* ThreatIntelligenceEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
