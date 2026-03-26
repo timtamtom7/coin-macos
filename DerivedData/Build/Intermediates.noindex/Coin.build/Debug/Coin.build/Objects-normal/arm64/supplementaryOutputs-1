@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/coin-macos/Sources/AccessibilityExtensions.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AccessibilityExtensions.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AccessibilityExtensions.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AccessibilityExtensions.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AccessibilityExtensions.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AccessibilityExtensions.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/App/AppDelegate.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AppDelegate.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AppDelegate.swiftdeps"
+  },
+  "/Users/mauriello/Dev/coin-macos/Sources/Views/AuditViewModel.swift" : {
+    "const-values" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AuditViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AuditViewModel.d",
+    "diagnostics" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AuditViewModel.dia",
+    "object" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AuditViewModel.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/coin-macos/DerivedData/Build/Intermediates.noindex/Coin.build/Debug/Coin.build/Objects-normal/arm64/AuditViewModel.swiftdeps"
+  }
+}

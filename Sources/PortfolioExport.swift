@@ -3,7 +3,7 @@ import Foundation
 struct CoinExport: Codable {
     let version: String
     let exportDate: Date
-    let holdings: [Holding]
+    let holdings: [CoinHolding]
     let watchlist: [WatchlistItem]
     let alerts: [PriceAlert]
 }

@@ -1,6 +1,6 @@
 import Foundation
 
-struct PortfolioSnapshot: Identifiable, Codable {
+struct PortfolioHistorySnapshot: Identifiable, Codable {
     let id: UUID
     let totalValue: Double
     let currency: String
@@ -16,7 +16,7 @@ final class PortfolioHistoryManager {
     private init() {}
 
     func recordSnapshot(totalValue: Double, currency: String = "USD") {
-        let snapshot = PortfolioSnapshot(
+        let snapshot = PortfolioHistorySnapshot(
             id: UUID(),
             totalValue: totalValue,
             currency: currency,
@@ -33,16 +33,16 @@ final class PortfolioHistoryManager {
         saveHistory(history)
     }
 
-    func fetchHistory() -> [PortfolioSnapshot] {
+    func fetchHistory() -> [PortfolioHistorySnapshot] {
         guard let data = UserDefaults.standard.data(forKey: historyKey) else { return [] }
         do {
-            return try JSONDecoder().decode([PortfolioSnapshot].self, from: data)
+            return try JSONDecoder().decode([PortfolioHistorySnapshot].self, from: data)
         } catch {
             return []
         }
     }
 
-    func getHistory(days: Int = 30) -> [PortfolioSnapshot] {
+    func getHistory(days: Int = 30) -> [PortfolioHistorySnapshot] {
         let cutoff = Calendar.current.date(byAdding: .day, value: -days, to: Date())!
         return fetchHistory().filter { $0.timestamp >= cutoff }
     }
@@ -59,7 +59,7 @@ final class PortfolioHistoryManager {
         return (change, percentChange)
     }
 
-    private func saveHistory(_ history: [PortfolioSnapshot]) {
+    private func saveHistory(_ history: [PortfolioHistorySnapshot]) {
         do {
             let data = try JSONEncoder().encode(history)
             UserDefaults.standard.set(data, forKey: historyKey)

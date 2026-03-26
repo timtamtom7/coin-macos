@@ -1,0 +1,30 @@
+{
+  "tables" : {
+    "AppShortcuts" : [
+      {
+        "key" : "Run ${applicationName} security audit",
+        "location" : {
+          "startingLine" : 7,
+          "startingColumn" : 0
+        },
+        "values" : [
+          "Run ${applicationName} security audit",
+          "Scan security with ${applicationName}"
+        ]
+      },
+      {
+        "key" : "Get ${applicationName} security score",
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 7
+        },
+        "values" : [
+          "Get ${applicationName} security score",
+          "Security score in ${applicationName}"
+        ]
+      }
+    ]
+  },
+  "source" : "\/Users\/mauriello\/Dev\/coin-macos\/Sources\/Services\/ShortcutsManager.swift",
+  "version" : 1
+}

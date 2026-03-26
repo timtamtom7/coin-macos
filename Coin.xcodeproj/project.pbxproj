@@ -12,27 +12,38 @@
 		1092CC65B3F60CF726ACDD46 /* ReportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A2A6EF7FDC3CE4CC618B9 /* ReportModels.swift */; };
 		14E55A9C8330371D18947418 /* AuditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B014E55CE5A51E260DEC0CB /* AuditViewModel.swift */; };
 		17FDE426F5A364A5D53F596D /* SecurityCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3351237BA65ED84BE316D99 /* SecurityCheck.swift */; };
+		184D090A5D90C711560B5849 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DADF98B012E7D56A1A91A46 /* Coin.swift */; };
 		346BA1D951201C29ADB3298B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C457EACDEFA50662CC3BA0 /* Theme.swift */; };
 		36F1C3714DB761E316E68BC9 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E762772AC8E80DB4DB1F3 /* SettingsStore.swift */; };
 		433F261411480EEBACECC278 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F430BBF92B8F98EA146567D /* main.swift */; };
 		5573B59609C5AD65C461781D /* ScheduledScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BEEC802D20B0E7128FA8EB /* ScheduledScanService.swift */; };
 		92CE2E390CF9D68A99626678 /* iCloudSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7877AE77BC702133AC511B4 /* iCloudSyncManager.swift */; };
 		93C81638674337EE7D65614B /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 71EB4EE8909EB2C58785F324 /* SQLite */; };
+		9615F98D38FC60EAD27D85AE /* ThreatIntelligenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5134F4816A141CAB8EB71106 /* ThreatIntelligenceEngine.swift */; };
+		9C38F55B2B0FF655BE37DAF1 /* PriceAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1E7222EB39A7739CCEBCB /* PriceAlert.swift */; };
+		A04AD5B93AE500FC3A39C9A8 /* AccessibilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A447B5FBD4EBF8541881D /* AccessibilityExtensions.swift */; };
 		ABB55D61B6B7C972F05E8F19 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC3CD424DF9DCC762F158E /* ScoreView.swift */; };
+		BD8080CED23434CE1FD663A2 /* PortfolioHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055C5D345A7AD2E8BA9F7239 /* PortfolioHistory.swift */; };
 		CF46C57587AB3A64D362BCE2 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E21898CCCC7FC8D02C7D82 /* PopoverView.swift */; };
+		D54891B1628417F5E4D9DABA /* CoinWatchlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81CE557D974C76955F41E1 /* CoinWatchlist.swift */; };
+		E8F6CCEDE8E908B77CEE5141 /* PortfolioExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF784BCDA8C86F05AE1EEAD /* PortfolioExport.swift */; };
 		EF5E995BA96C0804208491FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585390172B4D81A96D252769 /* ContentView.swift */; };
 		FBE80D2882EAD5CCDEB1E998 /* ShortcutsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD1986D02F19E0AF79A629A /* ShortcutsManager.swift */; };
-		AABB00112233445566AABBCC /* ThreatIntelligenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB00112233445566EEFF00 /* ThreatIntelligenceEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		055C5D345A7AD2E8BA9F7239 /* PortfolioHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioHistory.swift; sourceTree = "<group>"; };
 		10E21898CCCC7FC8D02C7D82 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		29F1E7222EB39A7739CCEBCB /* PriceAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceAlert.swift; sourceTree = "<group>"; };
 		2A322925F3DA822133BF37A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3212BAF5CA1878325357EFBA /* Coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BEEC802D20B0E7128FA8EB /* ScheduledScanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledScanService.swift; sourceTree = "<group>"; };
+		5134F4816A141CAB8EB71106 /* ThreatIntelligenceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreatIntelligenceEngine.swift; sourceTree = "<group>"; };
 		54C457EACDEFA50662CC3BA0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		585390172B4D81A96D252769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		648A2A6EF7FDC3CE4CC618B9 /* ReportModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModels.swift; sourceTree = "<group>"; };
+		7DADF98B012E7D56A1A91A46 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		861A447B5FBD4EBF8541881D /* AccessibilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityExtensions.swift; sourceTree = "<group>"; };
 		8B014E55CE5A51E260DEC0CB /* AuditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditViewModel.swift; sourceTree = "<group>"; };
 		8F430BBF92B8F98EA146567D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		923E762772AC8E80DB4DB1F3 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
@@ -40,8 +51,9 @@
 		A7877AE77BC702133AC511B4 /* iCloudSyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSyncManager.swift; sourceTree = "<group>"; };
 		BFD1986D02F19E0AF79A629A /* ShortcutsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsManager.swift; sourceTree = "<group>"; };
 		C3351237BA65ED84BE316D99 /* SecurityCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCheck.swift; sourceTree = "<group>"; };
+		DAF784BCDA8C86F05AE1EEAD /* PortfolioExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioExport.swift; sourceTree = "<group>"; };
 		DB66578A83BCC7D308447093 /* SecurityCheckerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCheckerService.swift; sourceTree = "<group>"; };
-		AABB00112233445566EEFF00 /* ThreatIntelligenceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreatIntelligenceEngine.swift; sourceTree = "<group>"; };
+		FA81CE557D974C76955F41E1 /* CoinWatchlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinWatchlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,11 @@
 		65C9A14C8CEAEBC4DD9F8AE7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				861A447B5FBD4EBF8541881D /* AccessibilityExtensions.swift */,
+				FA81CE557D974C76955F41E1 /* CoinWatchlist.swift */,
+				DAF784BCDA8C86F05AE1EEAD /* PortfolioExport.swift */,
+				055C5D345A7AD2E8BA9F7239 /* PortfolioHistory.swift */,
+				29F1E7222EB39A7739CCEBCB /* PriceAlert.swift */,
 				883BFB4B884C230386C0C5CA /* App */,
 				98F64F4A6BDBD5563E8B2AC4 /* Models */,
 				E356620EC1426D2954C2D7B6 /* Services */,
@@ -95,6 +112,7 @@
 		98F64F4A6BDBD5563E8B2AC4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7DADF98B012E7D56A1A91A46 /* Coin.swift */,
 				648A2A6EF7FDC3CE4CC618B9 /* ReportModels.swift */,
 				C3351237BA65ED84BE316D99 /* SecurityCheck.swift */,
 			);
@@ -109,7 +127,7 @@
 				DB66578A83BCC7D308447093 /* SecurityCheckerService.swift */,
 				923E762772AC8E80DB4DB1F3 /* SettingsStore.swift */,
 				BFD1986D02F19E0AF79A629A /* ShortcutsManager.swift */,
-				AABB00112233445566EEFF00 /* ThreatIntelligenceEngine.swift */,
+				5134F4816A141CAB8EB71106 /* ThreatIntelligenceEngine.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -184,10 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04AD5B93AE500FC3A39C9A8 /* AccessibilityExtensions.swift in Sources */,
 				0DDA55797460CE7DEAE8BAC1 /* AppDelegate.swift in Sources */,
 				14E55A9C8330371D18947418 /* AuditViewModel.swift in Sources */,
+				184D090A5D90C711560B5849 /* Coin.swift in Sources */,
+				D54891B1628417F5E4D9DABA /* CoinWatchlist.swift in Sources */,
 				EF5E995BA96C0804208491FA /* ContentView.swift in Sources */,
 				CF46C57587AB3A64D362BCE2 /* PopoverView.swift in Sources */,
+				E8F6CCEDE8E908B77CEE5141 /* PortfolioExport.swift in Sources */,
+				BD8080CED23434CE1FD663A2 /* PortfolioHistory.swift in Sources */,
+				9C38F55B2B0FF655BE37DAF1 /* PriceAlert.swift in Sources */,
 				1092CC65B3F60CF726ACDD46 /* ReportModels.swift in Sources */,
 				5573B59609C5AD65C461781D /* ScheduledScanService.swift in Sources */,
 				ABB55D61B6B7C972F05E8F19 /* ScoreView.swift in Sources */,
@@ -196,9 +220,9 @@
 				36F1C3714DB761E316E68BC9 /* SettingsStore.swift in Sources */,
 				FBE80D2882EAD5CCDEB1E998 /* ShortcutsManager.swift in Sources */,
 				346BA1D951201C29ADB3298B /* Theme.swift in Sources */,
+				9615F98D38FC60EAD27D85AE /* ThreatIntelligenceEngine.swift in Sources */,
 				92CE2E390CF9D68A99626678 /* iCloudSyncManager.swift in Sources */,
 				433F261411480EEBACECC278 /* main.swift in Sources */,
-				AABB00112233445566AABBCC /* ThreatIntelligenceEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
