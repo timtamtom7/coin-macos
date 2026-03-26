@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03E7B16599101F51F90BC81D /* SecurityCheckerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66578A83BCC7D308447093 /* SecurityCheckerService.swift */; };
+		0456288B2728C1136CA6EA77 /* PrivacyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D62CE86119DBC94362BB4 /* PrivacyService.swift */; };
 		0DDA55797460CE7DEAE8BAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A322925F3DA822133BF37A7 /* AppDelegate.swift */; };
 		1092CC65B3F60CF726ACDD46 /* ReportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A2A6EF7FDC3CE4CC618B9 /* ReportModels.swift */; };
 		14E55A9C8330371D18947418 /* AuditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B014E55CE5A51E260DEC0CB /* AuditViewModel.swift */; };
@@ -18,6 +19,7 @@
 		36F1C3714DB761E316E68BC9 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E762772AC8E80DB4DB1F3 /* SettingsStore.swift */; };
 		433F261411480EEBACECC278 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F430BBF92B8F98EA146567D /* main.swift */; };
 		5573B59609C5AD65C461781D /* ScheduledScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BEEC802D20B0E7128FA8EB /* ScheduledScanService.swift */; };
+		89814AAB86715D3E4033D31E /* SubscriptionTier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DE9C0708F3147479EF1107 /* SubscriptionTier.swift */; };
 		92CE2E390CF9D68A99626678 /* iCloudSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7877AE77BC702133AC511B4 /* iCloudSyncManager.swift */; };
 		93C81638674337EE7D65614B /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 71EB4EE8909EB2C58785F324 /* SQLite */; };
 		9615F98D38FC60EAD27D85AE /* ThreatIntelligenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5134F4816A141CAB8EB71106 /* ThreatIntelligenceEngine.swift */; };
@@ -25,6 +27,7 @@
 		A04AD5B93AE500FC3A39C9A8 /* AccessibilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A447B5FBD4EBF8541881D /* AccessibilityExtensions.swift */; };
 		ABB55D61B6B7C972F05E8F19 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC3CD424DF9DCC762F158E /* ScoreView.swift */; };
 		AC854FC9E55B4D24D301C5B7 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD28A40F6026356CEF3A6B /* APIService.swift */; };
+		B8E4A1EA69574CD31533D96F /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C15EFFE4BA4C71D8863D82 /* SubscriptionManager.swift */; };
 		BD8080CED23434CE1FD663A2 /* PortfolioHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055C5D345A7AD2E8BA9F7239 /* PortfolioHistory.swift */; };
 		CF46C57587AB3A64D362BCE2 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E21898CCCC7FC8D02C7D82 /* PopoverView.swift */; };
 		D54891B1628417F5E4D9DABA /* CoinWatchlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81CE557D974C76955F41E1 /* CoinWatchlist.swift */; };
@@ -56,9 +59,12 @@
 		93AC3CD424DF9DCC762F158E /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		A7877AE77BC702133AC511B4 /* iCloudSyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSyncManager.swift; sourceTree = "<group>"; };
 		BFD1986D02F19E0AF79A629A /* ShortcutsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsManager.swift; sourceTree = "<group>"; };
+		C1C15EFFE4BA4C71D8863D82 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
 		C3351237BA65ED84BE316D99 /* SecurityCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCheck.swift; sourceTree = "<group>"; };
+		C7DE9C0708F3147479EF1107 /* SubscriptionTier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTier.swift; sourceTree = "<group>"; };
 		DAF784BCDA8C86F05AE1EEAD /* PortfolioExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioExport.swift; sourceTree = "<group>"; };
 		DB66578A83BCC7D308447093 /* SecurityCheckerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCheckerService.swift; sourceTree = "<group>"; };
+		F94D62CE86119DBC94362BB4 /* PrivacyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyService.swift; sourceTree = "<group>"; };
 		FA81CE557D974C76955F41E1 /* CoinWatchlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinWatchlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +127,7 @@
 				7DADF98B012E7D56A1A91A46 /* Coin.swift */,
 				648A2A6EF7FDC3CE4CC618B9 /* ReportModels.swift */,
 				C3351237BA65ED84BE316D99 /* SecurityCheck.swift */,
+				C7DE9C0708F3147479EF1107 /* SubscriptionTier.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,10 +139,12 @@
 				46425599188F1781CC2C29AD /* CollaborationService.swift */,
 				2AF0F214E3F515DC531BE02E /* EnterpriseService.swift */,
 				A7877AE77BC702133AC511B4 /* iCloudSyncManager.swift */,
+				F94D62CE86119DBC94362BB4 /* PrivacyService.swift */,
 				48BEEC802D20B0E7128FA8EB /* ScheduledScanService.swift */,
 				DB66578A83BCC7D308447093 /* SecurityCheckerService.swift */,
 				923E762772AC8E80DB4DB1F3 /* SettingsStore.swift */,
 				BFD1986D02F19E0AF79A629A /* ShortcutsManager.swift */,
+				C1C15EFFE4BA4C71D8863D82 /* SubscriptionManager.swift */,
 				5134F4816A141CAB8EB71106 /* ThreatIntelligenceEngine.swift */,
 			);
 			path = Services;
@@ -224,6 +233,7 @@
 				E8F6CCEDE8E908B77CEE5141 /* PortfolioExport.swift in Sources */,
 				BD8080CED23434CE1FD663A2 /* PortfolioHistory.swift in Sources */,
 				9C38F55B2B0FF655BE37DAF1 /* PriceAlert.swift in Sources */,
+				0456288B2728C1136CA6EA77 /* PrivacyService.swift in Sources */,
 				1092CC65B3F60CF726ACDD46 /* ReportModels.swift in Sources */,
 				5573B59609C5AD65C461781D /* ScheduledScanService.swift in Sources */,
 				ABB55D61B6B7C972F05E8F19 /* ScoreView.swift in Sources */,
@@ -231,6 +241,8 @@
 				03E7B16599101F51F90BC81D /* SecurityCheckerService.swift in Sources */,
 				36F1C3714DB761E316E68BC9 /* SettingsStore.swift in Sources */,
 				FBE80D2882EAD5CCDEB1E998 /* ShortcutsManager.swift in Sources */,
+				B8E4A1EA69574CD31533D96F /* SubscriptionManager.swift in Sources */,
+				89814AAB86715D3E4033D31E /* SubscriptionTier.swift in Sources */,
 				346BA1D951201C29ADB3298B /* Theme.swift in Sources */,
 				9615F98D38FC60EAD27D85AE /* ThreatIntelligenceEngine.swift in Sources */,
 				92CE2E390CF9D68A99626678 /* iCloudSyncManager.swift in Sources */,
